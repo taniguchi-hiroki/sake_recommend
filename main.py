@@ -7,7 +7,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 
 # CSVファイルのパス（サーバーでのファイルの場所に応じて変更してください）
-csv_file_path = r'C:\Users\champ\OneDrive\デスクトップ\sake_recommend\sake_data.csv'
+csv_file_path = 'https://raw.githubusercontent.com/taniguchi-hiroki/sake_recommend/main/sake_data.csv'
 
 # CSVファイルを読み込む
 sake_data = pd.read_csv(csv_file_path)
