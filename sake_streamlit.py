@@ -9,7 +9,7 @@ st.header("類似する日本酒銘柄を見つけましょう")
 sake_name = st.text_input("日本酒の銘柄名を入力してください:", "")
 
 # FastAPIエンドポイント（このURLをデプロイされたFastAPIのURLに置き換える）
-FASTAPI_ENDPOINT = "http://localhost:8000/recommendations"
+FASTAPI_ENDPOINT = "https://sake-recommend.onrender.com/recommendations"
 
 if sake_name:
     # FastAPIサーバーにリクエストを送信
