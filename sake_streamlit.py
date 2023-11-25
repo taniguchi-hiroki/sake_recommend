@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # Streamlitアプリの設定
-st.title("日本酒推薦システム")
+st.title("日本酒銘柄おすすめアプリ")
 st.header("類似する日本酒銘柄を見つけましょう")
 
 # ユーザー入力
